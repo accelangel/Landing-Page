@@ -55,9 +55,31 @@ a {
 
 .quote-section {
     display: flex;
-    flex-grow: 4;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 750px;
+}
+
+.quotee {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
 
 .sign-up-section {
     display: flex;
