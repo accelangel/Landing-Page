@@ -42,24 +42,56 @@ a {
     padding: 25px;
 }
 
-.hero-container {
+.hero-section {
     display: flex;
     flex-grow: 5;
     background-color: #1F2937;
 }
 
-.information-container {
+.information-section {
     display: flex;
     flex-grow: 5;
 }
 
-.quote-container {
+.quote-section {
     display: flex;
     flex-grow: 4;
     background-color: #E5E7EB;
 }
 
-.sign-up-container {
+.sign-up-section {
     display: flex;
     flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 35px 85px 35px 85px;
+    gap: 150px;
+    flex-shrink: 0;
+}
+
+.call-to-action {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sign-up {
+    color: white;
+}
+
+
+button {
+    border-radius: 3px;
+    padding: 5px 25px 5px 25px;
+    border: solid 2px white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
 }
